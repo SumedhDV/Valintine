@@ -1,0 +1,90 @@
+
+#topImg{
+  background-color: rgb(177, 224, 213);
+}
+#footer-data{
+  background-color: rgb(138, 19, 88);
+  color: aliceblue;
+}
+.Videobg{
+  background-image: url(C:\Users\sumed\Desktop\project\myapp\src\Assets\VBg.jpg);
+  width: 100%;
+}
+#submit{
+  background-color: rgb(218, 140, 205);
+  font-family: 'Times New Roman', Times, serif;
+  color: azure;
+}
+#login{
+  box-shadow: 2px 2px 2px 2px grey;
+}
+#aside button{
+  color: rgb(251, 255, 255);
+  background-color: rgb(159, 104, 211);
+  width: 100%;
+  height: auto;
+  margin: 5px 5px;
+  border: none;
+  transition: all 0.5s linear;
+}
+#aside button:hover{
+  background-color: rgb(211, 214, 40);
+}
+#ajdButton{
+  color: rgb(240, 248, 248);
+  background-color: rgb(218, 143, 221);
+  width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 100px;
+  margin: 5px 5px;
+  border: none;
+  transition: all 0.5s linear;
+  font-size: x-large;
+}
+
+#ajdButton:hover{
+  background-color: rgb(167, 37, 179);
+}
+#msgId{
+  color: rgb(73, 145, 240);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 200;
+}
+
+#msgDes{
+  color: rgb(224, 22, 107);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 200;
+} 
+
+#login_page{
+  padding: 20px 20px;
+  height: 500px;
+  background-color: rgb(172, 235, 214);
+
+}
+#login_form{
+  background-color: rgb(221, 193, 248);
+}
+#about p{
+  text-align: justify
+}
+#ajSpecail{
+  color: rgb(213, 112, 226);
+  font-size: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration:30s;
+  animation-delay: 2s;
+  
+}
+@keyframes example {
+  0%   {color:rgb(214, 53, 53); left:0px; top:0px;}
+  25%  {color:rgb(255, 238, 0); left:00px; top:0px;}
+  50%  {color:blue; left:00px; top:200px;}
+  75%  {color:rgb(0, 128, 117); left:0px; top:200px;}
+  100% {color:rgb(255, 102, 0); left:0px; top:0px;}
+}
+#carouselExample{
+  transition: 2s;
+}
